@@ -1,0 +1,114 @@
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: burlywood;
+  color: #fff;
+}
+
+.title1 {
+  font-size: 24px;
+  margin-left: 20px;
+  font-size: xx-large;
+  color: black;
+}
+
+.nav-info {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.nav-info li a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+  font-size: large;
+}
+
+.nav-info li a:hover {
+  color: #f0f0f0;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background-color: burlywood;
+  color: #fff;
+}
+
+.backButton {
+  font-size: 20px;
+  margin-left: 20px;
+  background-color: green;
+  font-size: xx-large;
+}
+
+.createButton {
+  background-color: red;
+  padding: 10px;
+  margin: 20px;
+  font-size:x-large;
+}
+
+.createButton:hover{
+  background-color:orangered;
+}
+
+body {
+  background-image: url("pizzeria.png");
+}
+
+.main {
+  color:black;
+}
+
+form {
+  background-color: antiquewhite;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+form:hover {
+  background-color: beige;
+}
+
+form input {
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+form label {
+  font-size: larger;
+  align-items: center;
+}
+
+form button {
+  background-color: orange;
+  padding: 10px;
+  align-items: right;
+}
+
+.h1 {
+  background-color: orangered;
+  margin-right: 70%;
+  font-size: xx-large;
+}
+
+.name {
+  background-color:chocolate;
+  padding-right: 10%;
+  font-size: x-large;
+}
+
+.ingredientes {
+  background-color: orange;
+  font-size: x-large;
+  margin-right: 75%;
+  padding-right: 10%;
+}
